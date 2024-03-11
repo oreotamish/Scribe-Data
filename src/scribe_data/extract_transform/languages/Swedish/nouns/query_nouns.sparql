@@ -4,7 +4,7 @@
 # Note: does not include pronouns as the query wasn't running.
 
 SELECT DISTINCT
-  ?nominativeSingular ?nominativePlural
+  ?lexeme ?nominativeSingular ?nominativePlural
   ?genitiveSingular ?genitivePlural ?gender WHERE {
 
   # Nouns and pronouns.

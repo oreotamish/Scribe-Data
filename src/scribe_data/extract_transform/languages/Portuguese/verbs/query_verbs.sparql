@@ -2,7 +2,7 @@
 # Enter this query at https://query.wikidata.org/.
 
 SELECT DISTINCT
-  ?infinitive
+  ?lexeme ?infinitive
   ?presFPS ?presSPS ?presTPS
   ?presFPP ?presSPP ?presTPP
   ?perfFPS ?perfSPS ?perfTPS

@@ -2,7 +2,7 @@
 # Enter this query at https://query.wikidata.org/.
 
 SELECT
-  ?activeInfinitive ?imperative ?activeSupine
+  ?lexeme ?activeInfinitive ?imperative ?activeSupine
   ?activePresent ?activePreterite
   ?passiveInfinitive ?passiveSupine
   ?passivePresent ?passivePreterite WHERE {

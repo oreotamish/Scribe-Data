@@ -2,7 +2,7 @@
 # Enter this query at https://query.wikidata.org/.
 
 SELECT
-  ?infinitive
+  ?lexeme ?infinitive
   ?pretFPS ?pretSPS ?pretTPS
   ?pretFPP ?pretSPP ?pretTPP WHERE {
 

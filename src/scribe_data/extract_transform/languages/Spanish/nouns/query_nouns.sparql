@@ -1,7 +1,7 @@
 # All Spanish (Q1321) nouns, their plural and their gender.
 # Enter this query at https://query.wikidata.org/.
 
-SELECT DISTINCT ?singular ?plural ?gender WHERE {
+SELECT DISTINCT ?lexeme ?singular ?plural ?gender WHERE {
 
   # Nouns and pronouns.
   VALUES ?nounTypes { wd:Q1084 wd:Q147276 }
